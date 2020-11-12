@@ -1,0 +1,27 @@
+{
+  "name": "with-firebase-authentication",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' node server/server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@accessible/use-key": "^1.0.2",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "firebase": "^7.15.5",
+    "firebase-admin": "^8.12.1",
+    "js-cookie": "2.2.1",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-firebaseui": "4.1.0",
+    "sass": "^1.29.0",
+    "string-to-color": "^2.2.2",
+    "swr": "0.2.3",
+    "throttle-debounce": "^3.0.1"
+  },
+  "license": "MIT"
+}

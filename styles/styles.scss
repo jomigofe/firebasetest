@@ -1,0 +1,14 @@
+@import "components";
+
+body {
+  margin:0;
+}
+
+.world {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-family: verdana;
+}
